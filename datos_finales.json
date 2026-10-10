@@ -1,0 +1,2518 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$qpmL3oe4gxRiqR8hx47XNM$DItllL9w1OL+mEDEy0QZfvzoPS14dAhujZ7gjCBJnvQ=",
+        "last_login": "2026-10-10T04:23:40.618Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@example.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-10-05T02:24:13.679Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$46huBwMswaeCZBc6Xue35z$WrpGerDrs1sJo/aABpdL4PvslZHhQ6b5mtHMgckkZvg=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "empleado_1",
+        "first_name": "",
+        "last_name": "",
+        "email": "empleado_1@empresa.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-10-10T05:12:55.415Z",
+        "groups": [],
+        "user_permissions": [
+            [
+                "add_cliente",
+                "gestion_proyectos",
+                "cliente"
+            ],
+            [
+                "change_cliente",
+                "gestion_proyectos",
+                "cliente"
+            ],
+            [
+                "delete_cliente",
+                "gestion_proyectos",
+                "cliente"
+            ],
+            [
+                "view_cliente",
+                "gestion_proyectos",
+                "cliente"
+            ],
+            [
+                "add_colaborador",
+                "gestion_proyectos",
+                "colaborador"
+            ],
+            [
+                "change_colaborador",
+                "gestion_proyectos",
+                "colaborador"
+            ],
+            [
+                "delete_colaborador",
+                "gestion_proyectos",
+                "colaborador"
+            ],
+            [
+                "view_colaborador",
+                "gestion_proyectos",
+                "colaborador"
+            ],
+            [
+                "add_pago",
+                "gestion_proyectos",
+                "pago"
+            ],
+            [
+                "change_pago",
+                "gestion_proyectos",
+                "pago"
+            ],
+            [
+                "delete_pago",
+                "gestion_proyectos",
+                "pago"
+            ],
+            [
+                "view_pago",
+                "gestion_proyectos",
+                "pago"
+            ],
+            [
+                "add_proyecto",
+                "gestion_proyectos",
+                "proyecto"
+            ],
+            [
+                "change_proyecto",
+                "gestion_proyectos",
+                "proyecto"
+            ],
+            [
+                "delete_proyecto",
+                "gestion_proyectos",
+                "proyecto"
+            ],
+            [
+                "view_proyecto",
+                "gestion_proyectos",
+                "proyecto"
+            ],
+            [
+                "add_proyectocolaborador",
+                "gestion_proyectos",
+                "proyectocolaborador"
+            ],
+            [
+                "change_proyectocolaborador",
+                "gestion_proyectos",
+                "proyectocolaborador"
+            ],
+            [
+                "delete_proyectocolaborador",
+                "gestion_proyectos",
+                "proyectocolaborador"
+            ],
+            [
+                "view_proyectocolaborador",
+                "gestion_proyectos",
+                "proyectocolaborador"
+            ],
+            [
+                "add_tipopago",
+                "gestion_proyectos",
+                "tipopago"
+            ],
+            [
+                "change_tipopago",
+                "gestion_proyectos",
+                "tipopago"
+            ],
+            [
+                "delete_tipopago",
+                "gestion_proyectos",
+                "tipopago"
+            ],
+            [
+                "view_tipopago",
+                "gestion_proyectos",
+                "tipopago"
+            ]
+        ]
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$UpHP6I1OplIEUc6oe3EmxN$WAAS3TrFs8VaQOXlMw4jHGlqwmnw9eVje45GnOlIae0=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "empleado_2",
+        "first_name": "",
+        "last_name": "",
+        "email": "empleado_2@empresa.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-10-10T05:12:56.808Z",
+        "groups": [],
+        "user_permissions": [
+            [
+                "add_cliente",
+                "gestion_proyectos",
+                "cliente"
+            ],
+            [
+                "change_cliente",
+                "gestion_proyectos",
+                "cliente"
+            ],
+            [
+                "delete_cliente",
+                "gestion_proyectos",
+                "cliente"
+            ],
+            [
+                "view_cliente",
+                "gestion_proyectos",
+                "cliente"
+            ],
+            [
+                "add_colaborador",
+                "gestion_proyectos",
+                "colaborador"
+            ],
+            [
+                "change_colaborador",
+                "gestion_proyectos",
+                "colaborador"
+            ],
+            [
+                "delete_colaborador",
+                "gestion_proyectos",
+                "colaborador"
+            ],
+            [
+                "view_colaborador",
+                "gestion_proyectos",
+                "colaborador"
+            ],
+            [
+                "add_pago",
+                "gestion_proyectos",
+                "pago"
+            ],
+            [
+                "change_pago",
+                "gestion_proyectos",
+                "pago"
+            ],
+            [
+                "delete_pago",
+                "gestion_proyectos",
+                "pago"
+            ],
+            [
+                "view_pago",
+                "gestion_proyectos",
+                "pago"
+            ],
+            [
+                "add_proyecto",
+                "gestion_proyectos",
+                "proyecto"
+            ],
+            [
+                "change_proyecto",
+                "gestion_proyectos",
+                "proyecto"
+            ],
+            [
+                "delete_proyecto",
+                "gestion_proyectos",
+                "proyecto"
+            ],
+            [
+                "view_proyecto",
+                "gestion_proyectos",
+                "proyecto"
+            ],
+            [
+                "add_proyectocolaborador",
+                "gestion_proyectos",
+                "proyectocolaborador"
+            ],
+            [
+                "change_proyectocolaborador",
+                "gestion_proyectos",
+                "proyectocolaborador"
+            ],
+            [
+                "delete_proyectocolaborador",
+                "gestion_proyectos",
+                "proyectocolaborador"
+            ],
+            [
+                "view_proyectocolaborador",
+                "gestion_proyectos",
+                "proyectocolaborador"
+            ],
+            [
+                "add_tipopago",
+                "gestion_proyectos",
+                "tipopago"
+            ],
+            [
+                "change_tipopago",
+                "gestion_proyectos",
+                "tipopago"
+            ],
+            [
+                "delete_tipopago",
+                "gestion_proyectos",
+                "tipopago"
+            ],
+            [
+                "view_tipopago",
+                "gestion_proyectos",
+                "tipopago"
+            ]
+        ]
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$sSCRLjiGspFgabQoHETNwC$2XR0scWNn6XS1sgytpN6PeGYQSeu97KvnNLObwmKqR8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "empleado_3",
+        "first_name": "",
+        "last_name": "",
+        "email": "empleado_3@empresa.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-10-10T05:12:58.195Z",
+        "groups": [],
+        "user_permissions": [
+            [
+                "add_cliente",
+                "gestion_proyectos",
+                "cliente"
+            ],
+            [
+                "change_cliente",
+                "gestion_proyectos",
+                "cliente"
+            ],
+            [
+                "delete_cliente",
+                "gestion_proyectos",
+                "cliente"
+            ],
+            [
+                "view_cliente",
+                "gestion_proyectos",
+                "cliente"
+            ],
+            [
+                "add_colaborador",
+                "gestion_proyectos",
+                "colaborador"
+            ],
+            [
+                "change_colaborador",
+                "gestion_proyectos",
+                "colaborador"
+            ],
+            [
+                "delete_colaborador",
+                "gestion_proyectos",
+                "colaborador"
+            ],
+            [
+                "view_colaborador",
+                "gestion_proyectos",
+                "colaborador"
+            ],
+            [
+                "add_pago",
+                "gestion_proyectos",
+                "pago"
+            ],
+            [
+                "change_pago",
+                "gestion_proyectos",
+                "pago"
+            ],
+            [
+                "delete_pago",
+                "gestion_proyectos",
+                "pago"
+            ],
+            [
+                "view_pago",
+                "gestion_proyectos",
+                "pago"
+            ],
+            [
+                "add_proyecto",
+                "gestion_proyectos",
+                "proyecto"
+            ],
+            [
+                "change_proyecto",
+                "gestion_proyectos",
+                "proyecto"
+            ],
+            [
+                "delete_proyecto",
+                "gestion_proyectos",
+                "proyecto"
+            ],
+            [
+                "view_proyecto",
+                "gestion_proyectos",
+                "proyecto"
+            ],
+            [
+                "add_proyectocolaborador",
+                "gestion_proyectos",
+                "proyectocolaborador"
+            ],
+            [
+                "change_proyectocolaborador",
+                "gestion_proyectos",
+                "proyectocolaborador"
+            ],
+            [
+                "delete_proyectocolaborador",
+                "gestion_proyectos",
+                "proyectocolaborador"
+            ],
+            [
+                "view_proyectocolaborador",
+                "gestion_proyectos",
+                "proyectocolaborador"
+            ],
+            [
+                "add_tipopago",
+                "gestion_proyectos",
+                "tipopago"
+            ],
+            [
+                "change_tipopago",
+                "gestion_proyectos",
+                "tipopago"
+            ],
+            [
+                "delete_tipopago",
+                "gestion_proyectos",
+                "tipopago"
+            ],
+            [
+                "view_tipopago",
+                "gestion_proyectos",
+                "tipopago"
+            ]
+        ]
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$Wg8Y4TKpbpGgxethQ8iCSe$tG1/5kAOwedLsWLg8/wk+cF3H8lxyIGz0OFBzN1WOqw=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "empleado_4",
+        "first_name": "",
+        "last_name": "",
+        "email": "empleado_4@empresa.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-10-10T05:12:59.603Z",
+        "groups": [],
+        "user_permissions": [
+            [
+                "add_cliente",
+                "tienda_informatica",
+                "cliente"
+            ],
+            [
+                "change_cliente",
+                "tienda_informatica",
+                "cliente"
+            ],
+            [
+                "delete_cliente",
+                "tienda_informatica",
+                "cliente"
+            ],
+            [
+                "view_cliente",
+                "tienda_informatica",
+                "cliente"
+            ],
+            [
+                "add_compra",
+                "tienda_informatica",
+                "compra"
+            ],
+            [
+                "change_compra",
+                "tienda_informatica",
+                "compra"
+            ],
+            [
+                "delete_compra",
+                "tienda_informatica",
+                "compra"
+            ],
+            [
+                "view_compra",
+                "tienda_informatica",
+                "compra"
+            ],
+            [
+                "add_producto",
+                "tienda_informatica",
+                "producto"
+            ],
+            [
+                "change_producto",
+                "tienda_informatica",
+                "producto"
+            ],
+            [
+                "delete_producto",
+                "tienda_informatica",
+                "producto"
+            ],
+            [
+                "view_producto",
+                "tienda_informatica",
+                "producto"
+            ],
+            [
+                "add_productoproveedor",
+                "tienda_informatica",
+                "productoproveedor"
+            ],
+            [
+                "change_productoproveedor",
+                "tienda_informatica",
+                "productoproveedor"
+            ],
+            [
+                "delete_productoproveedor",
+                "tienda_informatica",
+                "productoproveedor"
+            ],
+            [
+                "view_productoproveedor",
+                "tienda_informatica",
+                "productoproveedor"
+            ],
+            [
+                "add_proveedor",
+                "tienda_informatica",
+                "proveedor"
+            ],
+            [
+                "change_proveedor",
+                "tienda_informatica",
+                "proveedor"
+            ],
+            [
+                "delete_proveedor",
+                "tienda_informatica",
+                "proveedor"
+            ],
+            [
+                "view_proveedor",
+                "tienda_informatica",
+                "proveedor"
+            ]
+        ]
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$T1kMjLT8wk3R2OU2qjau2a$aotuLuhvbn296/AQb1JFRFbnUvEPThX6AHOEwW2EiIM=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "empleado_5",
+        "first_name": "",
+        "last_name": "",
+        "email": "empleado_5@empresa.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-10-10T05:13:01.045Z",
+        "groups": [],
+        "user_permissions": [
+            [
+                "add_cliente",
+                "tienda_informatica",
+                "cliente"
+            ],
+            [
+                "change_cliente",
+                "tienda_informatica",
+                "cliente"
+            ],
+            [
+                "delete_cliente",
+                "tienda_informatica",
+                "cliente"
+            ],
+            [
+                "view_cliente",
+                "tienda_informatica",
+                "cliente"
+            ],
+            [
+                "add_compra",
+                "tienda_informatica",
+                "compra"
+            ],
+            [
+                "change_compra",
+                "tienda_informatica",
+                "compra"
+            ],
+            [
+                "delete_compra",
+                "tienda_informatica",
+                "compra"
+            ],
+            [
+                "view_compra",
+                "tienda_informatica",
+                "compra"
+            ],
+            [
+                "add_producto",
+                "tienda_informatica",
+                "producto"
+            ],
+            [
+                "change_producto",
+                "tienda_informatica",
+                "producto"
+            ],
+            [
+                "delete_producto",
+                "tienda_informatica",
+                "producto"
+            ],
+            [
+                "view_producto",
+                "tienda_informatica",
+                "producto"
+            ],
+            [
+                "add_productoproveedor",
+                "tienda_informatica",
+                "productoproveedor"
+            ],
+            [
+                "change_productoproveedor",
+                "tienda_informatica",
+                "productoproveedor"
+            ],
+            [
+                "delete_productoproveedor",
+                "tienda_informatica",
+                "productoproveedor"
+            ],
+            [
+                "view_productoproveedor",
+                "tienda_informatica",
+                "productoproveedor"
+            ],
+            [
+                "add_proveedor",
+                "tienda_informatica",
+                "proveedor"
+            ],
+            [
+                "change_proveedor",
+                "tienda_informatica",
+                "proveedor"
+            ],
+            [
+                "delete_proveedor",
+                "tienda_informatica",
+                "proveedor"
+            ],
+            [
+                "view_proveedor",
+                "tienda_informatica",
+                "proveedor"
+            ]
+        ]
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$NhEdibNVnDmEjD44LrjOwr$J/PadNPDt2WP+9j/yFspNiB9/MFFUfFW/nWD3j9hcEQ=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "empleado_6",
+        "first_name": "",
+        "last_name": "",
+        "email": "empleado_6@empresa.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-10-10T05:13:02.477Z",
+        "groups": [],
+        "user_permissions": [
+            [
+                "add_cliente",
+                "tienda_informatica",
+                "cliente"
+            ],
+            [
+                "change_cliente",
+                "tienda_informatica",
+                "cliente"
+            ],
+            [
+                "delete_cliente",
+                "tienda_informatica",
+                "cliente"
+            ],
+            [
+                "view_cliente",
+                "tienda_informatica",
+                "cliente"
+            ],
+            [
+                "add_compra",
+                "tienda_informatica",
+                "compra"
+            ],
+            [
+                "change_compra",
+                "tienda_informatica",
+                "compra"
+            ],
+            [
+                "delete_compra",
+                "tienda_informatica",
+                "compra"
+            ],
+            [
+                "view_compra",
+                "tienda_informatica",
+                "compra"
+            ],
+            [
+                "add_producto",
+                "tienda_informatica",
+                "producto"
+            ],
+            [
+                "change_producto",
+                "tienda_informatica",
+                "producto"
+            ],
+            [
+                "delete_producto",
+                "tienda_informatica",
+                "producto"
+            ],
+            [
+                "view_producto",
+                "tienda_informatica",
+                "producto"
+            ],
+            [
+                "add_productoproveedor",
+                "tienda_informatica",
+                "productoproveedor"
+            ],
+            [
+                "change_productoproveedor",
+                "tienda_informatica",
+                "productoproveedor"
+            ],
+            [
+                "delete_productoproveedor",
+                "tienda_informatica",
+                "productoproveedor"
+            ],
+            [
+                "view_productoproveedor",
+                "tienda_informatica",
+                "productoproveedor"
+            ],
+            [
+                "add_proveedor",
+                "tienda_informatica",
+                "proveedor"
+            ],
+            [
+                "change_proveedor",
+                "tienda_informatica",
+                "proveedor"
+            ],
+            [
+                "delete_proveedor",
+                "tienda_informatica",
+                "proveedor"
+            ],
+            [
+                "view_proveedor",
+                "tienda_informatica",
+                "proveedor"
+            ]
+        ]
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$kkBlXCV9GLGMLxKVj9QGhS$MV+qsIsxdOV7Z3dZhEVBOXyqcF1zoYBanKk9VgLJhBU=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "empleado_7",
+        "first_name": "",
+        "last_name": "",
+        "email": "empleado_7@empresa.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-10-10T05:13:03.864Z",
+        "groups": [],
+        "user_permissions": [
+            [
+                "add_lugar",
+                "agencia_viajes",
+                "lugar"
+            ],
+            [
+                "change_lugar",
+                "agencia_viajes",
+                "lugar"
+            ],
+            [
+                "delete_lugar",
+                "agencia_viajes",
+                "lugar"
+            ],
+            [
+                "view_lugar",
+                "agencia_viajes",
+                "lugar"
+            ],
+            [
+                "add_viaje",
+                "agencia_viajes",
+                "viaje"
+            ],
+            [
+                "change_viaje",
+                "agencia_viajes",
+                "viaje"
+            ],
+            [
+                "delete_viaje",
+                "agencia_viajes",
+                "viaje"
+            ],
+            [
+                "view_viaje",
+                "agencia_viajes",
+                "viaje"
+            ],
+            [
+                "add_viajero",
+                "agencia_viajes",
+                "viajero"
+            ],
+            [
+                "change_viajero",
+                "agencia_viajes",
+                "viajero"
+            ],
+            [
+                "delete_viajero",
+                "agencia_viajes",
+                "viajero"
+            ],
+            [
+                "view_viajero",
+                "agencia_viajes",
+                "viajero"
+            ]
+        ]
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$ZKJQ9WtOucJaLGfLKKWW3r$mUmjaM/SXIjs+zWKxNG/mMh1dayHxcWd4WbMRO/wIF8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "empleado_8",
+        "first_name": "",
+        "last_name": "",
+        "email": "empleado_8@empresa.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-10-10T05:13:05.339Z",
+        "groups": [],
+        "user_permissions": [
+            [
+                "add_lugar",
+                "agencia_viajes",
+                "lugar"
+            ],
+            [
+                "change_lugar",
+                "agencia_viajes",
+                "lugar"
+            ],
+            [
+                "delete_lugar",
+                "agencia_viajes",
+                "lugar"
+            ],
+            [
+                "view_lugar",
+                "agencia_viajes",
+                "lugar"
+            ],
+            [
+                "add_viaje",
+                "agencia_viajes",
+                "viaje"
+            ],
+            [
+                "change_viaje",
+                "agencia_viajes",
+                "viaje"
+            ],
+            [
+                "delete_viaje",
+                "agencia_viajes",
+                "viaje"
+            ],
+            [
+                "view_viaje",
+                "agencia_viajes",
+                "viaje"
+            ],
+            [
+                "add_viajero",
+                "agencia_viajes",
+                "viajero"
+            ],
+            [
+                "change_viajero",
+                "agencia_viajes",
+                "viajero"
+            ],
+            [
+                "delete_viajero",
+                "agencia_viajes",
+                "viajero"
+            ],
+            [
+                "view_viajero",
+                "agencia_viajes",
+                "viajero"
+            ]
+        ]
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$R9olZnB4s9GCuiSroy3U1a$NPJHuDBeLNj/QKx9eHbVnFtydcdhAW2Ylt8bQTTyO8A=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "empleado_9",
+        "first_name": "",
+        "last_name": "",
+        "email": "empleado_9@empresa.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-10-10T05:13:07.726Z",
+        "groups": [],
+        "user_permissions": [
+            [
+                "add_lugar",
+                "agencia_viajes",
+                "lugar"
+            ],
+            [
+                "change_lugar",
+                "agencia_viajes",
+                "lugar"
+            ],
+            [
+                "delete_lugar",
+                "agencia_viajes",
+                "lugar"
+            ],
+            [
+                "view_lugar",
+                "agencia_viajes",
+                "lugar"
+            ],
+            [
+                "add_viaje",
+                "agencia_viajes",
+                "viaje"
+            ],
+            [
+                "change_viaje",
+                "agencia_viajes",
+                "viaje"
+            ],
+            [
+                "delete_viaje",
+                "agencia_viajes",
+                "viaje"
+            ],
+            [
+                "view_viaje",
+                "agencia_viajes",
+                "viaje"
+            ],
+            [
+                "add_viajero",
+                "agencia_viajes",
+                "viajero"
+            ],
+            [
+                "change_viajero",
+                "agencia_viajes",
+                "viajero"
+            ],
+            [
+                "delete_viajero",
+                "agencia_viajes",
+                "viajero"
+            ],
+            [
+                "view_viajero",
+                "agencia_viajes",
+                "viajero"
+            ]
+        ]
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$EjACBjtN8ppOz5guuZs9H8$4BIIgnVEPvnFrjkXnC9CVhloBFHI4MbWNwcmPJP+Lus=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "empleado_10",
+        "first_name": "",
+        "last_name": "",
+        "email": "empleado_10@empresa.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-10-10T05:13:10.531Z",
+        "groups": [],
+        "user_permissions": [
+            [
+                "add_lugar",
+                "agencia_viajes",
+                "lugar"
+            ],
+            [
+                "change_lugar",
+                "agencia_viajes",
+                "lugar"
+            ],
+            [
+                "delete_lugar",
+                "agencia_viajes",
+                "lugar"
+            ],
+            [
+                "view_lugar",
+                "agencia_viajes",
+                "lugar"
+            ],
+            [
+                "add_viaje",
+                "agencia_viajes",
+                "viaje"
+            ],
+            [
+                "change_viaje",
+                "agencia_viajes",
+                "viaje"
+            ],
+            [
+                "delete_viaje",
+                "agencia_viajes",
+                "viaje"
+            ],
+            [
+                "view_viaje",
+                "agencia_viajes",
+                "viaje"
+            ],
+            [
+                "add_viajero",
+                "agencia_viajes",
+                "viajero"
+            ],
+            [
+                "change_viajero",
+                "agencia_viajes",
+                "viajero"
+            ],
+            [
+                "delete_viajero",
+                "agencia_viajes",
+                "viajero"
+            ],
+            [
+                "view_viajero",
+                "agencia_viajes",
+                "viajero"
+            ]
+        ]
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "170z3dert3z1j7z0wm0gdkp17kjfemot",
+    "fields": {
+        "session_data": ".eJxVjDsOAiEUAO9CbQg8vlraewYCvIesGkiW3cp4d0OyhbYzk3mzEPethn3QGhZkFybZ6ZelmJ_UpsBHbPfOc2_buiQ-E37YwW8d6XU92r9BjaPObQEbLeoitFWuSGWwaF9kdmdQNrmUDZLHAlEReOMEQcrCgScJjoDY5wveijfW:1xFOcU:-fWHT-AhWl5X4a34jKRklQtnWlDDZaSM9udxPH9cZVM",
+        "expire_date": "2026-10-24T04:23:38.358Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "7nsfwxxccd0s1jxh83k6886tm6td1u4f",
+    "fields": {
+        "session_data": ".eJxVjDsOAiEUAO9CbQg8vlraewYCvIesGkiW3cp4d0OyhbYzk3mzEPethn3QGhZkFybZ6ZelmJ_UpsBHbPfOc2_buiQ-E37YwW8d6XU92r9BjaPObQEbLeoitFWuSGWwaF9kdmdQNrmUDZLHAlEReOMEQcrCgScJjoDY5wveijfW:1xFOcW:oTO5kelRd15xYJFOMwSU7YcrSAQOi17eVoLRs4z8fV0",
+        "expire_date": "2026-10-24T04:23:40.626Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "rqo0g6guw8vudzz0ib7gwuck35sspn3j",
+    "fields": {
+        "session_data": ".eJxVjDsOAiEUAO9CbQg8vlraewYCvIesGkiW3cp4d0OyhbYzk3mzEPethn3QGhZkFybZ6ZelmJ_UpsBHbPfOc2_buiQ-E37YwW8d6XU92r9BjaPObQEbLeoitFWuSGWwaF9kdmdQNrmUDZLHAlEReOMEQcrCgScJjoDY5wveijfW:1xDYNU:5hNzaoIqmSu-Wi0i5xP96qjzVM65D_tb_3tVN-To4fE",
+        "expire_date": "2026-10-19T02:24:32.444Z"
+    }
+},
+{
+    "model": "gestion_proyectos.cliente",
+    "pk": "CLI001",
+    "fields": {
+        "razon_social": "Constructora Halcón S.A. de C.V.",
+        "domicilio": "Av. Vallarta 1200, GDL",
+        "telefono": "3331234567"
+    }
+},
+{
+    "model": "gestion_proyectos.cliente",
+    "pk": "CLI002",
+    "fields": {
+        "razon_social": "Grupo Industrial Tapatío",
+        "domicilio": "Calz. Independencia 450",
+        "telefono": "3332345678"
+    }
+},
+{
+    "model": "gestion_proyectos.cliente",
+    "pk": "CLI003",
+    "fields": {
+        "razon_social": "Tecnologías del Pacífico S.A.",
+        "domicilio": "Av. Patria 2300",
+        "telefono": "3333456789"
+    }
+},
+{
+    "model": "gestion_proyectos.cliente",
+    "pk": "CLI004",
+    "fields": {
+        "razon_social": "Comercializadora Del Valle",
+        "domicilio": "Av. México 980",
+        "telefono": "3334567890"
+    }
+},
+{
+    "model": "gestion_proyectos.cliente",
+    "pk": "CLI005",
+    "fields": {
+        "razon_social": "Distribuidora Jalisco",
+        "domicilio": "Periférico Norte 500",
+        "telefono": "3335678901"
+    }
+},
+{
+    "model": "gestion_proyectos.cliente",
+    "pk": "CLI006",
+    "fields": {
+        "razon_social": "Farmacéutica Occidente",
+        "domicilio": "Av. Américas 1500",
+        "telefono": "3336789012"
+    }
+},
+{
+    "model": "gestion_proyectos.cliente",
+    "pk": "CLI007",
+    "fields": {
+        "razon_social": "Restaurantes El Fogón",
+        "domicilio": "Av. Chapultepec 320",
+        "telefono": "3337890123"
+    }
+},
+{
+    "model": "gestion_proyectos.cliente",
+    "pk": "CLI008",
+    "fields": {
+        "razon_social": "Textiles Guadalajara",
+        "domicilio": "Calz. Lázaro Cárdenas 2100",
+        "telefono": "3338901234"
+    }
+},
+{
+    "model": "gestion_proyectos.cliente",
+    "pk": "CLI009",
+    "fields": {
+        "razon_social": "Automotriz Jalisco",
+        "domicilio": "Av. Vallarta 3500",
+        "telefono": "3339012345"
+    }
+},
+{
+    "model": "gestion_proyectos.cliente",
+    "pk": "CLI010",
+    "fields": {
+        "razon_social": "Consultores Asociados GDL",
+        "domicilio": "Av. Hidalgo 800",
+        "telefono": "3330123456"
+    }
+},
+{
+    "model": "gestion_proyectos.colaborador",
+    "pk": "DEMR840111CD8",
+    "fields": {
+        "nombre": "Ricardo Delgado Mendoza",
+        "domicilio": "Calle Pedro Moreno 44",
+        "telefono": "3311009009",
+        "banco": "HSBC",
+        "numero_cuenta": "0901234567"
+    }
+},
+{
+    "model": "gestion_proyectos.colaborador",
+    "pk": "GAHM900315KL2",
+    "fields": {
+        "nombre": "Marco Antonio García Herrera",
+        "domicilio": "Calle 8 de Julio 120",
+        "telefono": "3311001001",
+        "banco": "BBVA",
+        "numero_cuenta": "0123456789"
+    }
+},
+{
+    "model": "gestion_proyectos.colaborador",
+    "pk": "LOPE850722MN5",
+    "fields": {
+        "nombre": "Elena López Pérez",
+        "domicilio": "Av. Revolución 450",
+        "telefono": "3311002002",
+        "banco": "Santander",
+        "numero_cuenta": "0234567890"
+    }
+},
+{
+    "model": "gestion_proyectos.colaborador",
+    "pk": "MEDA880930RT9",
+    "fields": {
+        "nombre": "Andrea Medina Díaz",
+        "domicilio": "Av. Juárez 88",
+        "telefono": "3311004004",
+        "banco": "BBVA",
+        "numero_cuenta": "0456789012"
+    }
+},
+{
+    "model": "gestion_proyectos.colaborador",
+    "pk": "NURD910503YZ4",
+    "fields": {
+        "nombre": "Daniel Núñez Ramírez",
+        "domicilio": "Calle 5 de Mayo 60",
+        "telefono": "3311007007",
+        "banco": "Banorte",
+        "numero_cuenta": "0789012345"
+    }
+},
+{
+    "model": "gestion_proyectos.colaborador",
+    "pk": "ORFS930827AB6",
+    "fields": {
+        "nombre": "Sofía Ortiz Flores",
+        "domicilio": "Av. Niños Héroes 320",
+        "telefono": "3311008008",
+        "banco": "BBVA",
+        "numero_cuenta": "0890123456"
+    }
+},
+{
+    "model": "gestion_proyectos.colaborador",
+    "pk": "RUSC920108PQ3",
+    "fields": {
+        "nombre": "Carlos Ruiz Sánchez",
+        "domicilio": "Calle Morelos 230",
+        "telefono": "3311003003",
+        "banco": "Banorte",
+        "numero_cuenta": "0345678901"
+    }
+},
+{
+    "model": "gestion_proyectos.colaborador",
+    "pk": "SAJP960725EF2",
+    "fields": {
+        "nombre": "Patricia Salas Jiménez",
+        "domicilio": "Av. Américas 210",
+        "telefono": "3311010010",
+        "banco": "Santander",
+        "numero_cuenta": "0012345678"
+    }
+},
+{
+    "model": "gestion_proyectos.colaborador",
+    "pk": "TOGJ950214UV1",
+    "fields": {
+        "nombre": "Jorge Torres Gómez",
+        "domicilio": "Calle Hidalgo 15",
+        "telefono": "3311005005",
+        "banco": "HSBC",
+        "numero_cuenta": "0567890123"
+    }
+},
+{
+    "model": "gestion_proyectos.colaborador",
+    "pk": "VACL870619WX7",
+    "fields": {
+        "nombre": "Laura Vargas Castillo",
+        "domicilio": "Av. Alcalde 900",
+        "telefono": "3311006006",
+        "banco": "Santander",
+        "numero_cuenta": "0678901234"
+    }
+},
+{
+    "model": "gestion_proyectos.tipopago",
+    "pk": "TP01",
+    "fields": {
+        "descripcion": "Transferencia bancaria"
+    }
+},
+{
+    "model": "gestion_proyectos.tipopago",
+    "pk": "TP02",
+    "fields": {
+        "descripcion": "Depósito"
+    }
+},
+{
+    "model": "gestion_proyectos.tipopago",
+    "pk": "TP03",
+    "fields": {
+        "descripcion": "Cheque"
+    }
+},
+{
+    "model": "gestion_proyectos.proyecto",
+    "pk": "PRY001",
+    "fields": {
+        "descripcion": "Sistema de inventarios",
+        "cuantia": "150000.00",
+        "fecha_inicio": "2026-01-10",
+        "fecha_fin": "2026-04-15",
+        "cliente": "CLI001"
+    }
+},
+{
+    "model": "gestion_proyectos.proyecto",
+    "pk": "PRY002",
+    "fields": {
+        "descripcion": "Sitio web corporativo",
+        "cuantia": "45000.00",
+        "fecha_inicio": "2026-02-01",
+        "fecha_fin": "2026-03-01",
+        "cliente": "CLI002"
+    }
+},
+{
+    "model": "gestion_proyectos.proyecto",
+    "pk": "PRY003",
+    "fields": {
+        "descripcion": "App móvil de pedidos",
+        "cuantia": "210000.00",
+        "fecha_inicio": "2026-01-20",
+        "fecha_fin": null,
+        "cliente": "CLI007"
+    }
+},
+{
+    "model": "gestion_proyectos.proyecto",
+    "pk": "PRY004",
+    "fields": {
+        "descripcion": "Migración de servidores a la nube",
+        "cuantia": "320000.00",
+        "fecha_inicio": "2026-03-05",
+        "fecha_fin": null,
+        "cliente": "CLI003"
+    }
+},
+{
+    "model": "gestion_proyectos.proyecto",
+    "pk": "PRY005",
+    "fields": {
+        "descripcion": "Sistema de nómina",
+        "cuantia": "98000.00",
+        "fecha_inicio": "2026-02-15",
+        "fecha_fin": "2026-05-15",
+        "cliente": "CLI008"
+    }
+},
+{
+    "model": "gestion_proyectos.proyecto",
+    "pk": "PRY006",
+    "fields": {
+        "descripcion": "Portal de clientes",
+        "cuantia": "60000.00",
+        "fecha_inicio": "2026-01-05",
+        "fecha_fin": "2026-02-20",
+        "cliente": "CLI006"
+    }
+},
+{
+    "model": "gestion_proyectos.proyecto",
+    "pk": "PRY007",
+    "fields": {
+        "descripcion": "Dashboard de ventas",
+        "cuantia": "72000.00",
+        "fecha_inicio": "2026-03-01",
+        "fecha_fin": null,
+        "cliente": "CLI005"
+    }
+},
+{
+    "model": "gestion_proyectos.proyecto",
+    "pk": "PRY008",
+    "fields": {
+        "descripcion": "Integración con proveedores",
+        "cuantia": "55000.00",
+        "fecha_inicio": "2026-02-10",
+        "fecha_fin": "2026-04-01",
+        "cliente": "CLI004"
+    }
+},
+{
+    "model": "gestion_proyectos.proyecto",
+    "pk": "PRY009",
+    "fields": {
+        "descripcion": "App de rastreo de flotilla",
+        "cuantia": "180000.00",
+        "fecha_inicio": "2026-01-25",
+        "fecha_fin": null,
+        "cliente": "CLI009"
+    }
+},
+{
+    "model": "gestion_proyectos.proyecto",
+    "pk": "PRY010",
+    "fields": {
+        "descripcion": "Sistema de reservaciones",
+        "cuantia": "40000.00",
+        "fecha_inicio": "2026-03-10",
+        "fecha_fin": "2026-04-10",
+        "cliente": "CLI001"
+    }
+},
+{
+    "model": "gestion_proyectos.proyectocolaborador",
+    "pk": 1,
+    "fields": {
+        "proyecto": "PRY001",
+        "colaborador": "GAHM900315KL2"
+    }
+},
+{
+    "model": "gestion_proyectos.proyectocolaborador",
+    "pk": 2,
+    "fields": {
+        "proyecto": "PRY001",
+        "colaborador": "LOPE850722MN5"
+    }
+},
+{
+    "model": "gestion_proyectos.proyectocolaborador",
+    "pk": 3,
+    "fields": {
+        "proyecto": "PRY002",
+        "colaborador": "RUSC920108PQ3"
+    }
+},
+{
+    "model": "gestion_proyectos.proyectocolaborador",
+    "pk": 4,
+    "fields": {
+        "proyecto": "PRY003",
+        "colaborador": "MEDA880930RT9"
+    }
+},
+{
+    "model": "gestion_proyectos.proyectocolaborador",
+    "pk": 5,
+    "fields": {
+        "proyecto": "PRY003",
+        "colaborador": "TOGJ950214UV1"
+    }
+},
+{
+    "model": "gestion_proyectos.proyectocolaborador",
+    "pk": 6,
+    "fields": {
+        "proyecto": "PRY004",
+        "colaborador": "VACL870619WX7"
+    }
+},
+{
+    "model": "gestion_proyectos.proyectocolaborador",
+    "pk": 7,
+    "fields": {
+        "proyecto": "PRY005",
+        "colaborador": "NURD910503YZ4"
+    }
+},
+{
+    "model": "gestion_proyectos.proyectocolaborador",
+    "pk": 8,
+    "fields": {
+        "proyecto": "PRY006",
+        "colaborador": "ORFS930827AB6"
+    }
+},
+{
+    "model": "gestion_proyectos.proyectocolaborador",
+    "pk": 9,
+    "fields": {
+        "proyecto": "PRY007",
+        "colaborador": "DEMR840111CD8"
+    }
+},
+{
+    "model": "gestion_proyectos.proyectocolaborador",
+    "pk": 10,
+    "fields": {
+        "proyecto": "PRY008",
+        "colaborador": "SAJP960725EF2"
+    }
+},
+{
+    "model": "gestion_proyectos.proyectocolaborador",
+    "pk": 11,
+    "fields": {
+        "proyecto": "PRY009",
+        "colaborador": "GAHM900315KL2"
+    }
+},
+{
+    "model": "gestion_proyectos.proyectocolaborador",
+    "pk": 12,
+    "fields": {
+        "proyecto": "PRY010",
+        "colaborador": "RUSC920108PQ3"
+    }
+},
+{
+    "model": "gestion_proyectos.pago",
+    "pk": 1,
+    "fields": {
+        "concepto": "Pago parcial proyecto",
+        "cantidad": "15000.00",
+        "fecha_pago": "2026-02-01",
+        "tipo_pago": "TP01",
+        "colaborador": "GAHM900315KL2"
+    }
+},
+{
+    "model": "gestion_proyectos.pago",
+    "pk": 2,
+    "fields": {
+        "concepto": "Pago parcial proyecto",
+        "cantidad": "12000.00",
+        "fecha_pago": "2026-02-05",
+        "tipo_pago": "TP02",
+        "colaborador": "LOPE850722MN5"
+    }
+},
+{
+    "model": "gestion_proyectos.pago",
+    "pk": 3,
+    "fields": {
+        "concepto": "Pago parcial proyecto",
+        "cantidad": "18000.00",
+        "fecha_pago": "2026-02-10",
+        "tipo_pago": "TP01",
+        "colaborador": "RUSC920108PQ3"
+    }
+},
+{
+    "model": "gestion_proyectos.pago",
+    "pk": 4,
+    "fields": {
+        "concepto": "Pago parcial proyecto",
+        "cantidad": "9000.00",
+        "fecha_pago": "2026-02-12",
+        "tipo_pago": "TP03",
+        "colaborador": "MEDA880930RT9"
+    }
+},
+{
+    "model": "gestion_proyectos.pago",
+    "pk": 5,
+    "fields": {
+        "concepto": "Pago parcial proyecto",
+        "cantidad": "20000.00",
+        "fecha_pago": "2026-02-15",
+        "tipo_pago": "TP01",
+        "colaborador": "TOGJ950214UV1"
+    }
+},
+{
+    "model": "gestion_proyectos.pago",
+    "pk": 6,
+    "fields": {
+        "concepto": "Pago parcial proyecto",
+        "cantidad": "11000.00",
+        "fecha_pago": "2026-02-18",
+        "tipo_pago": "TP02",
+        "colaborador": "NURD910503YZ4"
+    }
+},
+{
+    "model": "gestion_proyectos.pago",
+    "pk": 7,
+    "fields": {
+        "concepto": "Pago parcial proyecto",
+        "cantidad": "13500.00",
+        "fecha_pago": "2026-02-20",
+        "tipo_pago": "TP01",
+        "colaborador": "ORFS930827AB6"
+    }
+},
+{
+    "model": "gestion_proyectos.pago",
+    "pk": 8,
+    "fields": {
+        "concepto": "Pago parcial proyecto",
+        "cantidad": "16000.00",
+        "fecha_pago": "2026-02-22",
+        "tipo_pago": "TP03",
+        "colaborador": "RUSC920108PQ3"
+    }
+},
+{
+    "model": "gestion_proyectos.pago",
+    "pk": 9,
+    "fields": {
+        "concepto": "Pago parcial proyecto",
+        "cantidad": "10000.00",
+        "fecha_pago": "2026-02-25",
+        "tipo_pago": "TP02",
+        "colaborador": "SAJP960725EF2"
+    }
+},
+{
+    "model": "gestion_proyectos.pago",
+    "pk": 10,
+    "fields": {
+        "concepto": "Pago parcial proyecto",
+        "cantidad": "14500.00",
+        "fecha_pago": "2026-02-28",
+        "tipo_pago": "TP01",
+        "colaborador": "DEMR840111CD8"
+    }
+},
+{
+    "model": "gestion_proyectos.pago",
+    "pk": 11,
+    "fields": {
+        "concepto": "Pago parcial proyecto",
+        "cantidad": "17000.00",
+        "fecha_pago": "2026-03-01",
+        "tipo_pago": "TP01",
+        "colaborador": "VACL870619WX7"
+    }
+},
+{
+    "model": "gestion_proyectos.pago",
+    "pk": 12,
+    "fields": {
+        "concepto": "Pago parcial proyecto",
+        "cantidad": "15500.00",
+        "fecha_pago": "2026-03-03",
+        "tipo_pago": "TP02",
+        "colaborador": "GAHM900315KL2"
+    }
+},
+{
+    "model": "tienda_informatica.cliente",
+    "pk": "C001",
+    "fields": {
+        "nombre": "Marisol",
+        "apellidos": "Hernández Luna",
+        "direccion": "Av. Patria 100",
+        "telefono": "3321110001"
+    }
+},
+{
+    "model": "tienda_informatica.cliente",
+    "pk": "C002",
+    "fields": {
+        "nombre": "Eduardo",
+        "apellidos": "Campos Ríos",
+        "direccion": "Calle Reforma 220",
+        "telefono": "3321110002"
+    }
+},
+{
+    "model": "tienda_informatica.cliente",
+    "pk": "C003",
+    "fields": {
+        "nombre": "Fernanda",
+        "apellidos": "Osorio Villegas",
+        "direccion": "Av. López Mateos 800",
+        "telefono": "3321110003"
+    }
+},
+{
+    "model": "tienda_informatica.cliente",
+    "pk": "C004",
+    "fields": {
+        "nombre": "Iván",
+        "apellidos": "Beltrán Soto",
+        "direccion": "Calle Juárez 15",
+        "telefono": "3321110004"
+    }
+},
+{
+    "model": "tienda_informatica.cliente",
+    "pk": "C005",
+    "fields": {
+        "nombre": "Daniela",
+        "apellidos": "Paredes Núñez",
+        "direccion": "Av. Vallarta 2200",
+        "telefono": "3321110005"
+    }
+},
+{
+    "model": "tienda_informatica.cliente",
+    "pk": "C006",
+    "fields": {
+        "nombre": "Julio César",
+        "apellidos": "Moreno",
+        "direccion": "Calle Independencia 50",
+        "telefono": "3321110006"
+    }
+},
+{
+    "model": "tienda_informatica.cliente",
+    "pk": "C007",
+    "fields": {
+        "nombre": "Brenda",
+        "apellidos": "Aguilar Ponce",
+        "direccion": "Av. Américas 700",
+        "telefono": "3321110007"
+    }
+},
+{
+    "model": "tienda_informatica.cliente",
+    "pk": "C008",
+    "fields": {
+        "nombre": "Raúl",
+        "apellidos": "Figueroa Camacho",
+        "direccion": "Calle Morelos 90",
+        "telefono": "3321110008"
+    }
+},
+{
+    "model": "tienda_informatica.cliente",
+    "pk": "C009",
+    "fields": {
+        "nombre": "Ximena",
+        "apellidos": "Cortés Reyes",
+        "direccion": "Av. Revolución 330",
+        "telefono": "3321110009"
+    }
+},
+{
+    "model": "tienda_informatica.cliente",
+    "pk": "C010",
+    "fields": {
+        "nombre": "Héctor",
+        "apellidos": "Lozano Vega",
+        "direccion": "Calle Hidalgo 44",
+        "telefono": "3321110010"
+    }
+},
+{
+    "model": "tienda_informatica.proveedor",
+    "pk": "PV001",
+    "fields": {
+        "nombre": "Tecno",
+        "apellidos": "Distribuciones S.A.",
+        "direccion": "Av. Mariano Otero 500",
+        "provincia": "Jalisco",
+        "telefono": "3341110001"
+    }
+},
+{
+    "model": "tienda_informatica.proveedor",
+    "pk": "PV002",
+    "fields": {
+        "nombre": "Silicon",
+        "apellidos": "Importadora de GDL",
+        "direccion": "Av. Lázaro Cárdenas 1500",
+        "provincia": "Jalisco",
+        "telefono": "3341110002"
+    }
+},
+{
+    "model": "tienda_informatica.proveedor",
+    "pk": "PV003",
+    "fields": {
+        "nombre": "CompuPartes",
+        "apellidos": "de Occidente",
+        "direccion": "Calle 8 de Julio 900",
+        "provincia": "Jalisco",
+        "telefono": "3341110003"
+    }
+},
+{
+    "model": "tienda_informatica.proveedor",
+    "pk": "PV004",
+    "fields": {
+        "nombre": "Grupo",
+        "apellidos": "Hardware MX",
+        "direccion": "Av. Américas 1800",
+        "provincia": "CDMX",
+        "telefono": "3341110004"
+    }
+},
+{
+    "model": "tienda_informatica.proveedor",
+    "pk": "PV005",
+    "fields": {
+        "nombre": "Soluciones",
+        "apellidos": "Digitales del Bajío",
+        "direccion": "Av. Constituyentes 300",
+        "provincia": "Guanajuato",
+        "telefono": "3341110005"
+    }
+},
+{
+    "model": "tienda_informatica.proveedor",
+    "pk": "PV006",
+    "fields": {
+        "nombre": "Mayoreo",
+        "apellidos": "Electrónico GDL",
+        "direccion": "Periférico Sur 2200",
+        "provincia": "Jalisco",
+        "telefono": "3341110006"
+    }
+},
+{
+    "model": "tienda_informatica.proveedor",
+    "pk": "PV007",
+    "fields": {
+        "nombre": "Componentes",
+        "apellidos": "Jalisco S.A.",
+        "direccion": "Av. Vallarta 4500",
+        "provincia": "Jalisco",
+        "telefono": "3341110007"
+    }
+},
+{
+    "model": "tienda_informatica.proveedor",
+    "pk": "PV008",
+    "fields": {
+        "nombre": "RedTech",
+        "apellidos": "Proveedores",
+        "direccion": "Calle Pedro Moreno 300",
+        "provincia": "Jalisco",
+        "telefono": "3341110008"
+    }
+},
+{
+    "model": "tienda_informatica.proveedor",
+    "pk": "PV009",
+    "fields": {
+        "nombre": "PC",
+        "apellidos": "Wholesale MX",
+        "direccion": "Av. Patria 3000",
+        "provincia": "Jalisco",
+        "telefono": "3341110009"
+    }
+},
+{
+    "model": "tienda_informatica.proveedor",
+    "pk": "PV010",
+    "fields": {
+        "nombre": "InfoPartes",
+        "apellidos": "Nacional",
+        "direccion": "Av. 16 de Septiembre 100",
+        "provincia": "CDMX",
+        "telefono": "3341110010"
+    }
+},
+{
+    "model": "tienda_informatica.producto",
+    "pk": "P001",
+    "fields": {
+        "descripcion": "Laptop Dell Inspiron 15",
+        "precio": "11499.00",
+        "existencias": 10
+    }
+},
+{
+    "model": "tienda_informatica.producto",
+    "pk": "P002",
+    "fields": {
+        "descripcion": "Laptop HP Pavilion",
+        "precio": "15999.00",
+        "existencias": 8
+    }
+},
+{
+    "model": "tienda_informatica.producto",
+    "pk": "P003",
+    "fields": {
+        "descripcion": "Monitor LG 24 pulgadas",
+        "precio": "2899.00",
+        "existencias": 20
+    }
+},
+{
+    "model": "tienda_informatica.producto",
+    "pk": "P004",
+    "fields": {
+        "descripcion": "Teclado mecánico Logitech",
+        "precio": "1299.00",
+        "existencias": 30
+    }
+},
+{
+    "model": "tienda_informatica.producto",
+    "pk": "P005",
+    "fields": {
+        "descripcion": "Mouse inalámbrico",
+        "precio": "249.00",
+        "existencias": 50
+    }
+},
+{
+    "model": "tienda_informatica.producto",
+    "pk": "P006",
+    "fields": {
+        "descripcion": "Disco SSD 1TB",
+        "precio": "1199.00",
+        "existencias": 25
+    }
+},
+{
+    "model": "tienda_informatica.producto",
+    "pk": "P007",
+    "fields": {
+        "descripcion": "Cable HDMI 2m",
+        "precio": "159.00",
+        "existencias": 60
+    }
+},
+{
+    "model": "tienda_informatica.producto",
+    "pk": "P008",
+    "fields": {
+        "descripcion": "Impresora Epson L3250",
+        "precio": "3999.00",
+        "existencias": 12
+    }
+},
+{
+    "model": "tienda_informatica.producto",
+    "pk": "P009",
+    "fields": {
+        "descripcion": "Router TP-Link AX1800",
+        "precio": "1399.00",
+        "existencias": 18
+    }
+},
+{
+    "model": "tienda_informatica.producto",
+    "pk": "P010",
+    "fields": {
+        "descripcion": "Webcam Logitech C920",
+        "precio": "1149.00",
+        "existencias": 22
+    }
+},
+{
+    "model": "tienda_informatica.productoproveedor",
+    "pk": 1,
+    "fields": {
+        "producto": "P001",
+        "proveedor": "PV001"
+    }
+},
+{
+    "model": "tienda_informatica.productoproveedor",
+    "pk": 2,
+    "fields": {
+        "producto": "P001",
+        "proveedor": "PV002"
+    }
+},
+{
+    "model": "tienda_informatica.productoproveedor",
+    "pk": 3,
+    "fields": {
+        "producto": "P002",
+        "proveedor": "PV001"
+    }
+},
+{
+    "model": "tienda_informatica.productoproveedor",
+    "pk": 4,
+    "fields": {
+        "producto": "P002",
+        "proveedor": "PV004"
+    }
+},
+{
+    "model": "tienda_informatica.productoproveedor",
+    "pk": 5,
+    "fields": {
+        "producto": "P003",
+        "proveedor": "PV002"
+    }
+},
+{
+    "model": "tienda_informatica.productoproveedor",
+    "pk": 6,
+    "fields": {
+        "producto": "P004",
+        "proveedor": "PV004"
+    }
+},
+{
+    "model": "tienda_informatica.productoproveedor",
+    "pk": 7,
+    "fields": {
+        "producto": "P004",
+        "proveedor": "PV006"
+    }
+},
+{
+    "model": "tienda_informatica.productoproveedor",
+    "pk": 8,
+    "fields": {
+        "producto": "P005",
+        "proveedor": "PV003"
+    }
+},
+{
+    "model": "tienda_informatica.productoproveedor",
+    "pk": 9,
+    "fields": {
+        "producto": "P005",
+        "proveedor": "PV006"
+    }
+},
+{
+    "model": "tienda_informatica.productoproveedor",
+    "pk": 10,
+    "fields": {
+        "producto": "P006",
+        "proveedor": "PV002"
+    }
+},
+{
+    "model": "tienda_informatica.productoproveedor",
+    "pk": 11,
+    "fields": {
+        "producto": "P006",
+        "proveedor": "PV005"
+    }
+},
+{
+    "model": "tienda_informatica.productoproveedor",
+    "pk": 12,
+    "fields": {
+        "producto": "P007",
+        "proveedor": "PV005"
+    }
+},
+{
+    "model": "tienda_informatica.productoproveedor",
+    "pk": 13,
+    "fields": {
+        "producto": "P007",
+        "proveedor": "PV007"
+    }
+},
+{
+    "model": "tienda_informatica.productoproveedor",
+    "pk": 14,
+    "fields": {
+        "producto": "P008",
+        "proveedor": "PV008"
+    }
+},
+{
+    "model": "tienda_informatica.productoproveedor",
+    "pk": 15,
+    "fields": {
+        "producto": "P009",
+        "proveedor": "PV006"
+    }
+},
+{
+    "model": "tienda_informatica.productoproveedor",
+    "pk": 16,
+    "fields": {
+        "producto": "P009",
+        "proveedor": "PV010"
+    }
+},
+{
+    "model": "tienda_informatica.productoproveedor",
+    "pk": 17,
+    "fields": {
+        "producto": "P010",
+        "proveedor": "PV001"
+    }
+},
+{
+    "model": "tienda_informatica.productoproveedor",
+    "pk": 18,
+    "fields": {
+        "producto": "P010",
+        "proveedor": "PV009"
+    }
+},
+{
+    "model": "tienda_informatica.compra",
+    "pk": 1,
+    "fields": {
+        "producto": "P001",
+        "cliente": "C001",
+        "fecha": "2026-01-05"
+    }
+},
+{
+    "model": "tienda_informatica.compra",
+    "pk": 2,
+    "fields": {
+        "producto": "P003",
+        "cliente": "C002",
+        "fecha": "2026-01-08"
+    }
+},
+{
+    "model": "tienda_informatica.compra",
+    "pk": 3,
+    "fields": {
+        "producto": "P002",
+        "cliente": "C003",
+        "fecha": "2026-01-10"
+    }
+},
+{
+    "model": "tienda_informatica.compra",
+    "pk": 4,
+    "fields": {
+        "producto": "P005",
+        "cliente": "C004",
+        "fecha": "2026-01-12"
+    }
+},
+{
+    "model": "tienda_informatica.compra",
+    "pk": 5,
+    "fields": {
+        "producto": "P006",
+        "cliente": "C005",
+        "fecha": "2026-01-15"
+    }
+},
+{
+    "model": "tienda_informatica.compra",
+    "pk": 6,
+    "fields": {
+        "producto": "P008",
+        "cliente": "C001",
+        "fecha": "2026-01-18"
+    }
+},
+{
+    "model": "tienda_informatica.compra",
+    "pk": 7,
+    "fields": {
+        "producto": "P004",
+        "cliente": "C006",
+        "fecha": "2026-01-20"
+    }
+},
+{
+    "model": "tienda_informatica.compra",
+    "pk": 8,
+    "fields": {
+        "producto": "P010",
+        "cliente": "C007",
+        "fecha": "2026-01-22"
+    }
+},
+{
+    "model": "tienda_informatica.compra",
+    "pk": 9,
+    "fields": {
+        "producto": "P007",
+        "cliente": "C008",
+        "fecha": "2026-01-25"
+    }
+},
+{
+    "model": "tienda_informatica.compra",
+    "pk": 10,
+    "fields": {
+        "producto": "P009",
+        "cliente": "C009",
+        "fecha": "2026-01-28"
+    }
+},
+{
+    "model": "agencia_viajes.viajero",
+    "pk": "BAMR930305VWX",
+    "fields": {
+        "nombre": "Roberto Bautista Mora",
+        "direccion": "Calle Morelos 90",
+        "telefono": "3341112208"
+    }
+},
+{
+    "model": "agencia_viajes.viajero",
+    "pk": "CAVL820507MNO",
+    "fields": {
+        "nombre": "Lorena Castro Vidal",
+        "direccion": "Av. México 2200",
+        "telefono": "3341112205"
+    }
+},
+{
+    "model": "agencia_viajes.viajero",
+    "pk": "FLRP900701BCD",
+    "fields": {
+        "nombre": "Pablo Flores Reséndiz",
+        "direccion": "Calle Hidalgo 44",
+        "telefono": "3341112210"
+    }
+},
+{
+    "model": "agencia_viajes.viajero",
+    "pk": "GOHL880413ABC",
+    "fields": {
+        "nombre": "Lucía Gómez Hinojosa",
+        "direccion": "Av. Patria 100",
+        "telefono": "3341112201"
+    }
+},
+{
+    "model": "agencia_viajes.viajero",
+    "pk": "HEND960112PQR",
+    "fields": {
+        "nombre": "David Hernández Nava",
+        "direccion": "Calle Independencia 50",
+        "telefono": "3341112206"
+    }
+},
+{
+    "model": "agencia_viajes.viajero",
+    "pk": "MARA870630GHI",
+    "fields": {
+        "nombre": "Ana María Ramírez",
+        "direccion": "Av. Vallarta 800",
+        "telefono": "3341112203"
+    }
+},
+{
+    "model": "agencia_viajes.viajero",
+    "pk": "OLVS890824STU",
+    "fields": {
+        "nombre": "Susana Olvera Salcido",
+        "direccion": "Av. Américas 700",
+        "telefono": "3341112207"
+    }
+},
+{
+    "model": "agencia_viajes.viajero",
+    "pk": "PECR910925DEF",
+    "fields": {
+        "nombre": "Ricardo Peña Cárdenas",
+        "direccion": "Calle Juárez 220",
+        "telefono": "3341112202"
+    }
+},
+{
+    "model": "agencia_viajes.viajero",
+    "pk": "SOTJ940218JKL",
+    "fields": {
+        "nombre": "Jorge Soto Téllez",
+        "direccion": "Calle Hidalgo 15",
+        "telefono": "3341112204"
+    }
+},
+{
+    "model": "agencia_viajes.viajero",
+    "pk": "TOGC850919YZA",
+    "fields": {
+        "nombre": "Carla Torres González",
+        "direccion": "Av. Revolución 330",
+        "telefono": "3341112209"
+    }
+},
+{
+    "model": "agencia_viajes.lugar",
+    "pk": "LUG001",
+    "fields": {
+        "nombre": "Guadalajara",
+        "otros_datos": ""
+    }
+},
+{
+    "model": "agencia_viajes.lugar",
+    "pk": "LUG002",
+    "fields": {
+        "nombre": "Ciudad de México",
+        "otros_datos": ""
+    }
+},
+{
+    "model": "agencia_viajes.lugar",
+    "pk": "LUG003",
+    "fields": {
+        "nombre": "Cancún",
+        "otros_datos": ""
+    }
+},
+{
+    "model": "agencia_viajes.lugar",
+    "pk": "LUG004",
+    "fields": {
+        "nombre": "Puerto Vallarta",
+        "otros_datos": ""
+    }
+},
+{
+    "model": "agencia_viajes.lugar",
+    "pk": "LUG005",
+    "fields": {
+        "nombre": "Monterrey",
+        "otros_datos": ""
+    }
+},
+{
+    "model": "agencia_viajes.lugar",
+    "pk": "LUG006",
+    "fields": {
+        "nombre": "Los Cabos",
+        "otros_datos": ""
+    }
+},
+{
+    "model": "agencia_viajes.lugar",
+    "pk": "LUG007",
+    "fields": {
+        "nombre": "Oaxaca",
+        "otros_datos": ""
+    }
+},
+{
+    "model": "agencia_viajes.lugar",
+    "pk": "LUG008",
+    "fields": {
+        "nombre": "Mérida",
+        "otros_datos": ""
+    }
+},
+{
+    "model": "agencia_viajes.lugar",
+    "pk": "LUG009",
+    "fields": {
+        "nombre": "Madrid",
+        "otros_datos": ""
+    }
+},
+{
+    "model": "agencia_viajes.lugar",
+    "pk": "LUG010",
+    "fields": {
+        "nombre": "Nueva York",
+        "otros_datos": ""
+    }
+},
+{
+    "model": "agencia_viajes.viaje",
+    "pk": "VJ001",
+    "fields": {
+        "num_plazas": 2,
+        "fecha": "2026-01-05",
+        "viajero": "GOHL880413ABC",
+        "origen": "LUG001",
+        "destino": "LUG003"
+    }
+},
+{
+    "model": "agencia_viajes.viaje",
+    "pk": "VJ002",
+    "fields": {
+        "num_plazas": 1,
+        "fecha": "2026-01-06",
+        "viajero": "PECR910925DEF",
+        "origen": "LUG001",
+        "destino": "LUG002"
+    }
+},
+{
+    "model": "agencia_viajes.viaje",
+    "pk": "VJ003",
+    "fields": {
+        "num_plazas": 4,
+        "fecha": "2026-01-08",
+        "viajero": "MARA870630GHI",
+        "origen": "LUG001",
+        "destino": "LUG004"
+    }
+},
+{
+    "model": "agencia_viajes.viaje",
+    "pk": "VJ004",
+    "fields": {
+        "num_plazas": 2,
+        "fecha": "2026-01-10",
+        "viajero": "SOTJ940218JKL",
+        "origen": "LUG001",
+        "destino": "LUG009"
+    }
+},
+{
+    "model": "agencia_viajes.viaje",
+    "pk": "VJ005",
+    "fields": {
+        "num_plazas": 3,
+        "fecha": "2026-01-12",
+        "viajero": "CAVL820507MNO",
+        "origen": "LUG002",
+        "destino": "LUG007"
+    }
+},
+{
+    "model": "agencia_viajes.viaje",
+    "pk": "VJ006",
+    "fields": {
+        "num_plazas": 2,
+        "fecha": "2026-01-14",
+        "viajero": "HEND960112PQR",
+        "origen": "LUG001",
+        "destino": "LUG006"
+    }
+},
+{
+    "model": "agencia_viajes.viaje",
+    "pk": "VJ007",
+    "fields": {
+        "num_plazas": 1,
+        "fecha": "2026-01-16",
+        "viajero": "OLVS890824STU",
+        "origen": "LUG005",
+        "destino": "LUG002"
+    }
+},
+{
+    "model": "agencia_viajes.viaje",
+    "pk": "VJ008",
+    "fields": {
+        "num_plazas": 2,
+        "fecha": "2026-01-18",
+        "viajero": "BAMR930305VWX",
+        "origen": "LUG001",
+        "destino": "LUG010"
+    }
+},
+{
+    "model": "agencia_viajes.viaje",
+    "pk": "VJ009",
+    "fields": {
+        "num_plazas": 5,
+        "fecha": "2026-01-20",
+        "viajero": "TOGC850919YZA",
+        "origen": "LUG003",
+        "destino": "LUG001"
+    }
+},
+{
+    "model": "agencia_viajes.viaje",
+    "pk": "VJ010",
+    "fields": {
+        "num_plazas": 2,
+        "fecha": "2026-01-22",
+        "viajero": "FLRP900701BCD",
+        "origen": "LUG001",
+        "destino": "LUG008"
+    }
+},
+{
+    "model": "agencia_viajes.viaje",
+    "pk": "VJ011",
+    "fields": {
+        "num_plazas": 2,
+        "fecha": "2026-01-24",
+        "viajero": "GOHL880413ABC",
+        "origen": "LUG003",
+        "destino": "LUG001"
+    }
+},
+{
+    "model": "agencia_viajes.viaje",
+    "pk": "VJ012",
+    "fields": {
+        "num_plazas": 1,
+        "fecha": "2026-01-26",
+        "viajero": "PECR910925DEF",
+        "origen": "LUG002",
+        "destino": "LUG005"
+    }
+}
+]

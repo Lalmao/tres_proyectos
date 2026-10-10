@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Baja de proyecto{% endblock %}
+{% block content %}
+<h1>Baja de proyecto</h1>
+<p>¿Confirmas eliminar el proyecto <strong>{{ proyecto.codigo }} - {{ proyecto.descripcion }}</strong>?</p>
+<form method="post">
+    {% csrf_token %}
+    <button class="btn danger" type="submit">Sí, eliminar</button>
+    <a class="btn small" href="{% url 'gp_proyecto_list' %}">Cancelar</a>
+</form>
+{% endblock %}

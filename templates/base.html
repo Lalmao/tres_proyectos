@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>{% block title %}Tres Proyectos - Actividad 3.1{% endblock %}</title>
+<style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f4f6f8; color: #222; }
+    nav { background: #1f2d3d; padding: 14px 24px; }
+    nav a { color: #fff; text-decoration: none; margin-right: 20px; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    .container { max-width: 1000px; margin: 30px auto; background: #fff; padding: 24px 30px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
+    h1 { color: #1f2d3d; }
+    table { width: 100%; border-collapse: collapse; margin-top: 16px; }
+    th, td { padding: 8px 10px; border-bottom: 1px solid #ddd; text-align: left; }
+    th { background: #eef1f5; }
+    a.btn, button.btn { display: inline-block; padding: 6px 14px; border-radius: 4px; background: #2f6fed; color: #fff; text-decoration: none; border: none; cursor: pointer; font-size: 14px; }
+    a.btn.danger, button.btn.danger { background: #d9453d; }
+    a.btn.small, button.btn.small { padding: 4px 10px; font-size: 13px; margin-right: 4px; }
+    form p { margin: 10px 0; }
+    label { display: block; margin-bottom: 4px; font-weight: bold; }
+    input, select { padding: 6px; width: 100%; max-width: 320px; box-sizing: border-box; }
+</style>
+</head>
+<body>
+<nav>
+    <a href="/gestion-proyectos/">Problema 1: Gestión de Proyectos</a>
+    <a href="/tienda-informatica/">Problema 2: Tienda Informática</a>
+    <a href="/agencia-viajes/">Problema 3: Agencia de Viajes</a>
+    <a href="/admin/">Panel admin (todas las tablas)</a>
+</nav>
+<div class="container">
+{% block content %}{% endblock %}
+</div>
+</body>
+</html>

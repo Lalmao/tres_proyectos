@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Inicio{% endblock %}
+{% block content %}
+<h1>Actividad 3.1 — Tres proyectos ejemplo</h1>
+<p>Un solo framework (Django) con base de datos SQL (SQLite), usado como frontend y backend a la vez.</p>
+<ul>
+    <li><a href="{% url 'gp_proyecto_list' %}">Problema 1: Gestión de Proyectos</a></li>
+    <li><a href="{% url 'ti_producto_list' %}">Problema 2: Tienda Informática</a></li>
+    <li><a href="{% url 'av_viaje_list' %}">Problema 3: Agencia de Viajes</a></li>
+    <li><a href="/admin/">Panel de administración (alta/baja/cambio/consulta de TODAS las tablas)</a></li>
+</ul>
+{% endblock %}
